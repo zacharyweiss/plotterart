@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e45a0dc5-8f8c-45bb-9529-6f1fdd1b7e86" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bifuractions.py" beforeDir="false" afterPath="$PROJECT_DIR$/bifuractions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forcedduffing.py" beforeDir="false" afterPath="$PROJECT_DIR$/forcedduffing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RunManager" selected="Python.forcedduffing">
     <configuration name="bifuractions" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -130,22 +131,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="936" height="420" key="GridCell.Tab.0.bottom" timestamp="1609386920269">
+    <state width="936" height="420" key="GridCell.Tab.0.bottom" timestamp="1609387756748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="420" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609386920269" />
-    <state width="936" height="420" key="GridCell.Tab.0.center" timestamp="1609386920269">
+    <state width="936" height="420" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609387756748" />
+    <state width="936" height="420" key="GridCell.Tab.0.center" timestamp="1609387756743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="420" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609386920269" />
-    <state width="936" height="420" key="GridCell.Tab.0.left" timestamp="1609386920269">
+    <state width="936" height="420" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609387756743" />
+    <state width="936" height="420" key="GridCell.Tab.0.left" timestamp="1609387756743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="420" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609386920269" />
-    <state width="936" height="420" key="GridCell.Tab.0.right" timestamp="1609386920269">
+    <state width="936" height="420" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609387756743" />
+    <state width="936" height="420" key="GridCell.Tab.0.right" timestamp="1609387756743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="420" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609386920269" />
+    <state width="936" height="420" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609387756743" />
     <state width="934" height="340" key="GridCell.Tab.1.bottom" timestamp="1609375600170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -162,10 +163,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="934" height="340" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609375600170" />
-    <state x="922" y="173" key="SettingsEditor" timestamp="1609368511020">
+    <state x="922" y="173" key="SettingsEditor" timestamp="1609387300162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="922" y="173" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609368511020" />
+    <state x="922" y="173" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609387300162" />
     <state x="1103" y="230" key="search.everywhere.popup" timestamp="1609276965675">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

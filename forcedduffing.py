@@ -13,8 +13,9 @@ def f(u, p, t):
 
 
 u0 = [1.0, 0.0]
-tspan = (0., 10.)
-p = [1., 5., 0.02, 8., 0.5, 0.]
+tspan = (0., 1000.)
+# p = [1., 5., 0.02, 8., 0.5, 0.]
+p = [-1., 1., 0.3, 0.5, 1.2, 0.]
 numba_f = numba.jit(f)
 prob = de.ODEProblem(numba_f, u0, tspan, p)
 sol = de.solve(prob, saveat=0.01)
@@ -22,6 +23,6 @@ sol = de.solve(prob, saveat=0.01)
 ut = np.transpose(sol.u)
 
 fig = plt.figure()
-ax = fig.add_subplot(111, projection='3d')
+ax = fig.add_subplot(111)
 ax.plot(ut[0,:],ut[1,:])
 plt.show()

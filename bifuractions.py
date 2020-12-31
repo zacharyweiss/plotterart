@@ -4,14 +4,14 @@ import math
 
 
 def diffeq(r, x):
+    # logistic
     return r * x * (1 - x)
 
-# circle map, for arnold tongue
+
 #def diffeq(k, x):
+#    # circle map, for arnold tongue
 #    omega = 1/3
 #    return x + omega + (k/(2*math.pi))*np.sin(2*math.pi*x)
-
-
 #diffeq = np.vectorize(circlemap)
 
 def plot_system(r, x0, n, ax=None):
