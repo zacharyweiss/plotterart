@@ -2,6 +2,7 @@ from diffeqpy import de
 import matplotlib.pyplot as plt
 import numpy as np
 import numba
+from mpl_toolkits.mplot3d import Axes3D
 
 
 def f(u, p, t):
@@ -17,5 +18,9 @@ numba_f = numba.jit(f)
 prob = de.ODEProblem(numba_f, u0, tspan, p)
 sol = de.solve(prob, saveat=0.01)
 
-plt.plot(sol.t, sol.u)
+ut = np.transpose(sol.u)
+
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+ax.plot(ut[0,:],ut[1,:],ut[2,:])
 plt.show()
