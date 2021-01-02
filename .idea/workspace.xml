@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e45a0dc5-8f8c-45bb-9529-6f1fdd1b7e86" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bifuractions.py" beforeDir="false" afterPath="$PROJECT_DIR$/bifuractions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forcedduffing.py" beforeDir="false" afterPath="$PROJECT_DIR$/forcedduffing.py" afterDir="false" />
-    </list>
+    <list default="true" id="e45a0dc5-8f8c-45bb-9529-6f1fdd1b7e86" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,6 +127,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1120" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1609626888178">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1120" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609626888178" />
     <state width="936" height="420" key="GridCell.Tab.0.bottom" timestamp="1609437083406">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
