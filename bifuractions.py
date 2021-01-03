@@ -1,3 +1,8 @@
+"""
+Zachary Weiss
+30 Dec 2020
+Bifurcation and Lyapunov Exponent
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 import math

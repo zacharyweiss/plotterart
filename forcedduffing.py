@@ -1,3 +1,8 @@
+"""
+Zachary Weiss
+30 Dec 2020
+Forced Duffing Equation
+"""
 from diffeqpy import de
 import matplotlib.pyplot as plt
 import numpy as np
@@ -24,5 +29,5 @@ ut = np.transpose(sol.u)
 
 fig = plt.figure()
 ax = fig.add_subplot(111)
-ax.plot(ut[0,:],ut[1,:])
+ax.plot(ut[0, :], ut[1, :])
 plt.show()

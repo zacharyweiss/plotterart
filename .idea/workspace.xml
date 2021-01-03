@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e45a0dc5-8f8c-45bb-9529-6f1fdd1b7e86" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Zach.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Zach.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bifuractions.py" beforeDir="false" afterPath="$PROJECT_DIR$/bifuractions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feynmanellipse.py" beforeDir="false" afterPath="$PROJECT_DIR$/feynmanellipse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forcedduffing.py" beforeDir="false" afterPath="$PROJECT_DIR$/forcedduffing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lorenz.py" beforeDir="false" afterPath="$PROJECT_DIR$/lorenz.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

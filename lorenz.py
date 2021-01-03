@@ -1,3 +1,8 @@
+"""
+Zachary Weiss
+30 Dec 2020
+Lorenz Equation
+"""
 from diffeqpy import de
 import matplotlib.pyplot as plt
 import numpy as np
@@ -22,5 +27,5 @@ ut = np.transpose(sol.u)
 
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
-ax.plot(ut[0,:],ut[1,:],ut[2,:])
+ax.plot(ut[0, :], ut[1, :], ut[2, :])
 plt.show()
