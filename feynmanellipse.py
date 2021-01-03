@@ -44,4 +44,8 @@ for i in range(0, nlines):
 lc = mc.LineCollection(tangents)
 ax.add_collection(lc)
 ax.autoscale()
+
+plt.grid(False)
+plt.axis('off')
+ax.set_aspect('equal')
 plt.show()
