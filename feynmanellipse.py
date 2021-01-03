@@ -14,7 +14,7 @@ radius = 1
 point = [0.5, 0]
 
 if sum(np.square(point)) >= radius:
-    raise ValueError('Point is outside of or on circle')
+    raise ValueError('Point is on or outside the defined circle')
 
 fig = plt.figure()
 ax = fig.add_subplot(111)
