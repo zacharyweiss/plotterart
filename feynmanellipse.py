@@ -2,15 +2,15 @@
 Zachary Weiss
 2 Jan 2021
 Ellipse construction as described by 3B1B in his video on Feynman's Lost Lecture
+NOTE: Purposed modified partway through, as intermediate result more interesting than planned ellipse
 """
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.collections as mc
 import math
 
-
-nlines = 500
-radius = 1
+n_lines = 500
+radius = 1  # not much reason to change from 1 as only serves to scale (relative to other params)
 point = [0.5, 0]
 
 if sum(np.square(point)) >= radius:
@@ -19,14 +19,14 @@ if sum(np.square(point)) >= radius:
 fig = plt.figure()
 ax = fig.add_subplot(111)
 
-theta = np.zeros((nlines,), dtype=float)
-dist = np.zeros((nlines,), dtype=float)
-intersections = np.zeros((nlines, 2), dtype=float)
-midpts = np.zeros((nlines, 2), dtype=float)
-tangents = np.zeros((nlines, 2, 2), dtype=float)
-for i in range(0, nlines):
+theta = np.zeros((n_lines,), dtype=float)
+dist = np.zeros((n_lines,), dtype=float)
+intersections = np.zeros((n_lines, 2), dtype=float)
+midpts = np.zeros((n_lines, 2), dtype=float)
+tangents = np.zeros((n_lines, 2, 2), dtype=float)
+for i in range(0, n_lines):
     # can likely do this smarter array-wise, but just quickly implementing as a loop
-    theta[i] = (i/nlines)*2*math.pi
+    theta[i] = (i / n_lines) * 2 * math.pi
     components = np.array([np.cos(theta[i]), np.sin(theta[i])])
     b = 2*np.dot(point, components)
     c = sum(np.square(point))-np.square(radius)
@@ -36,9 +36,10 @@ for i in range(0, nlines):
     intersections[i, :] = np.add(vec, point)
     midpts[i, :] = np.add(vec/2, point)
 
-    tanvec = np.array(dist[i]*np.flip(components))/2
+    tan_vec = np.array(dist[i] * np.flip(components)) / 2
     # the transpose was a mistake, but it generated a fantastic end result so I'm pausing here to play around w/ it
-    tangents[i, :, :] = np.array([np.add(tanvec, midpts[i, :]), np.add(-tanvec, midpts[i, :])]).transpose()
+    tangents[i, :, :] = np.array([np.add(tan_vec, midpts[i, :]), np.add(-tan_vec, midpts[i, :])]).transpose()
+    #tangents[i, :, :] = np.array([np.add(tan_vec, midpts[i, :]), np.add(-tan_vec, midpts[i, :])])
 
 
 lc = mc.LineCollection(tangents)
@@ -47,5 +48,6 @@ ax.autoscale()
 
 plt.grid(False)
 plt.axis('off')
+plt.tight_layout()
 ax.set_aspect('equal')
 plt.show()
