@@ -31,7 +31,6 @@ ax.plot(ut[0, :], ut[1, :], ut[2, :])
 
 ax.autoscale()
 # ax.set_aspect('equal')
-ax.imshow(interpolation='antialiased')
 plt.grid(False)
 plt.axis('off')
 plt.tight_layout()
