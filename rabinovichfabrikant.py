@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import numba
 from mpl_toolkits.mplot3d import Axes3D
+from matplotlib import animation
 
 def f(u, p, t):
     x, y, z = u
