@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e45a0dc5-8f8c-45bb-9529-6f1fdd1b7e86" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyclicallysymmetricattractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/cyclicallysymmetricattractor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabinovichfabrikant.py" beforeDir="false" afterPath="$PROJECT_DIR$/rabinovichfabrikant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forcedduffing.py" beforeDir="false" afterPath="$PROJECT_DIR$/forcedduffing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lorenz.py" beforeDir="false" afterPath="$PROJECT_DIR$/lorenz.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +34,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.cyclicallysymmetricattractor">
+  <component name="RunManager" selected="Python.forcedduffing">
     <configuration name="cyclicallysymmetricattractor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="plotterart" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -56,7 +56,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="feynmanellipse" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="plotterart" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,11 +64,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../handwriting-synthesis" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/feynmanellipse.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../handwriting-synthesis/demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,7 +77,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="forcedduffing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="forcedduffing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="plotterart" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lorenz" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="lorenz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="plotterart" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,7 +112,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lorenz.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.cyclicallysymmetricattractor" />
-        <item itemvalue="Python.rabinovichfabrikant" />
-        <item itemvalue="Python.feynmanellipse" />
         <item itemvalue="Python.forcedduffing" />
         <item itemvalue="Python.lorenz" />
+        <item itemvalue="Python.demo" />
+        <item itemvalue="Python.cyclicallysymmetricattractor" />
+        <item itemvalue="Python.rabinovichfabrikant" />
       </list>
     </recent_temporary>
   </component>
@@ -180,38 +180,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1120" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609626888178" />
-    <state width="936" height="357" key="GridCell.Tab.0.bottom" timestamp="1609802287737">
+    <state width="1899" height="357" key="GridCell.Tab.0.bottom" timestamp="1610666859650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="357" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609802287737" />
-    <state width="936" height="357" key="GridCell.Tab.0.center" timestamp="1609802287736">
+    <state width="1899" height="357" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610666859650" />
+    <state width="1899" height="357" key="GridCell.Tab.0.center" timestamp="1610666859650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="357" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609802287736" />
-    <state width="936" height="357" key="GridCell.Tab.0.left" timestamp="1609802287736">
+    <state width="1899" height="357" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610666859650" />
+    <state width="1899" height="357" key="GridCell.Tab.0.left" timestamp="1610666859650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="357" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609802287736" />
-    <state width="936" height="357" key="GridCell.Tab.0.right" timestamp="1609802287737">
+    <state width="1899" height="357" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610666859650" />
+    <state width="1899" height="357" key="GridCell.Tab.0.right" timestamp="1610666859650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="357" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609802287737" />
-    <state width="938" height="346" key="GridCell.Tab.1.bottom" timestamp="1609798489874">
+    <state width="1899" height="357" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610666859650" />
+    <state width="1899" height="342" key="GridCell.Tab.1.bottom" timestamp="1610304723075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="346" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609798489874" />
-    <state width="938" height="346" key="GridCell.Tab.1.center" timestamp="1609798489874">
+    <state width="1899" height="342" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610304723075" />
+    <state width="1899" height="342" key="GridCell.Tab.1.center" timestamp="1610304723075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="346" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609798489874" />
-    <state width="938" height="346" key="GridCell.Tab.1.left" timestamp="1609798489874">
+    <state width="1899" height="342" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610304723075" />
+    <state width="1899" height="342" key="GridCell.Tab.1.left" timestamp="1610304723075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="346" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609798489874" />
-    <state width="938" height="346" key="GridCell.Tab.1.right" timestamp="1609798489874">
+    <state width="1899" height="342" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610304723075" />
+    <state width="1899" height="342" key="GridCell.Tab.1.right" timestamp="1610304723075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="346" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609798489874" />
+    <state width="1899" height="342" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610304723075" />
     <state x="922" y="173" key="SettingsEditor" timestamp="1609629468757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
