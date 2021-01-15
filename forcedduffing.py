@@ -37,14 +37,12 @@ def solver(u0, p, tspan):
     return ut
 
 
-def find_crosssections(x0, y0):
+def poincareMap():
     # https://stackoverflow.com/questions/53792164/how-to-implement-a-method-to-generate-poincar%C3%A9-sections-for-a-non-linear-system
-    u0 = [x0, y0, 0]
-    px = []
-    py = []
+    px, py = [], []
 
-    u = solver(u0, np.arange(0, 4000, 0.5))
-    u0 = u[-1]
+    u = solver(u0, p, tspan)
+    # u0 = u[-1]
     u = np.mod(u + np.pi, 2 * np.pi) - np.pi
     x, y, z = u.T
 
@@ -62,9 +60,9 @@ N = 20
 grid = np.zeros([N, N], dtype=int)
 for i in range(N):
     for j in range(N):
-        if grid[i, j] > 0: continue
+        if grid[i, j] > 0: continue;
         x0, y0 = (2 * i + 1) * np.pi / N - np.pi, (2 * j + 1) * np.pi / N - np.pi
-        px, py = find_crosssections(x0, y0)
+        px, py = poincareMap()
         for rx, ry in zip(px, py):
             m, n = int((rx + np.pi) * N / (2 * np.pi)), int((ry + np.pi) * N / (2 * np.pi))
             grid[m, n] = 1
@@ -78,15 +76,14 @@ for i in range(N):
 # plt.grid(False)
 # plt.axis('off')
 # plt.tight_layout()
-# ax.set_aspect('equal')
 # plt.show()
 
 
-fig = plt.figure()
-ax = fig.add_subplot(111, projection='3d')
-ax.plot(ut[0, :], ut[2, :], ut[1, :])
-ax.autoscale()
-plt.grid(False)
-plt.axis('off')
-plt.tight_layout()
-plt.show()
+# fig = plt.figure()
+# ax = fig.add_subplot(111, projection='3d')
+# ax.plot(ut[0, :], ut[2, :], ut[1, :])
+# ax.autoscale()
+# plt.grid(False)
+# plt.axis('off')
+# plt.tight_layout()
+# plt.show()
