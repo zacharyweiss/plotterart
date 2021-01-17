@@ -14,7 +14,7 @@ from mpl_toolkits.mplot3d import Axes3D
 # u0 = [1.0, 0.0, 0.]
 # u0 = [0., 0.05, 0.]
 p = [-1., 1., 0.05, 0.3, 2. * np.pi * 0.2, 0.]
-tspan = (0., 10.)
+tspan = (0., 5000.)
 
 
 def f(u, p, t):
@@ -57,8 +57,9 @@ def poincareMap(x0, y0):
             py.append(ry)
     return px, py
 
-
-N = 20
+fig = plt.figure()
+ax = fig.add_subplot(111)
+N = 100
 grid = np.zeros([N, N], dtype=int)
 for i in range(N):
     for j in range(N):
@@ -69,7 +70,11 @@ for i in range(N):
             m, n = int((rx + np.pi) * N / (2 * np.pi)), int((ry + np.pi) * N / (2 * np.pi))
             grid[m, n] = 1
 
-    plt.plot(px, py, '.', ms=2)
+    ax.plot(px, py, '.', ms=2)
+ax.autoscale()
+plt.axis('off')
+plt.tight_layout()
+plt.show()
 
 # fig = plt.figure()
 # ax = fig.add_subplot(111)
