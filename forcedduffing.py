@@ -57,6 +57,7 @@ def poincareMap(x0, y0):
             py.append(ry)
     return px, py
 
+
 fig = plt.figure()
 ax = fig.add_subplot(111)
 N = 100
